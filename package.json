@@ -1,0 +1,26 @@
+{
+  "name": "nfd-noauth",
+  "version": "0.0.1",
+  "description": "nearForm deployer module",
+  "main": "lib/main",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nearform/nfd-noauth.git"
+  },
+  "keywords": [
+    "nearForm",
+    "deployer",
+    "noauth"
+  ],
+  "author": "Peter Elger",
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "pwuid": "~1.0.0",
+    "lodash": "~2.4.1",
+    "uuid": "~1.4.1"
+  },
+  "devDependencies": {}
+}
