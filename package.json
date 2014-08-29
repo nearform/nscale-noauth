@@ -1,19 +1,23 @@
 {
-  "name": "nfd-noauth",
-  "version": "0.0.1",
-  "description": "nearForm deployer module",
+  "name": "nscale-noauth",
+  "version": "0.1.0",
+  "description": "nscale git-based authorization system",
   "main": "lib/main",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nearform/nfd-noauth.git"
+    "url": "https://github.com/nearform/nscale-noauth.git"
   },
+  "bugs": {
+    "url": "https://github.com/nearform/nscale-noauth/issues"
+  },
+  "homepage": "https://github.com/nearform/nscale-noauth",
   "keywords": [
     "nearForm",
     "deployer",
     "noauth"
   ],
   "author": "Peter Elger",
-  "license": "MIT",
+  "license": "Artistic License 2.0",
   "engines": {
     "node": "*"
   },
