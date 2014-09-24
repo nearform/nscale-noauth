@@ -1,6 +1,6 @@
 {
   "name": "nscale-noauth",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "nscale git-based authorization system",
   "main": "lib/main",
   "repository": {
