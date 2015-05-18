@@ -19,10 +19,11 @@ var assert = require('assert');
 var noauth = require('../lib/main')({credentialsPath: __dirname});
 
 noauth.login(null, null, function(err, result) {
+  console.log(result);
   assert(!err);
   noauth.userInfo(result.user.token, function(err, u) {
     assert(!err);
     assert(result.user.email === u.email);
+    console.log('OK')
   });
 });
-
